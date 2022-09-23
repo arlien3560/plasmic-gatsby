@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-404-js-33ef47de3d63bfe187e8.js","mappings":"6GAGA,UAHiB,WACf,MAAO,WACR,C","sources":["webpack://tmp-cpa/./src/pages/404.js"],"sourcesContent":["const NotFound = () => {\n  return \"Not Found\";\n};\nexport default NotFound;"],"names":[],"sourceRoot":""}
