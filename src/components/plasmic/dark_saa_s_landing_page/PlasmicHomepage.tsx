@@ -129,6 +129,8 @@ export function Head() {
         name="twitter:title"
         content={PlasmicHomepage.pageMetadata.title}
       />
+
+      <link ref="canonical" href={PlasmicHomepage.pageMetadata.canonical} />
     </>
   );
 }
@@ -1880,12 +1882,15 @@ export const PlasmicHomepage = Object.assign(
     internalVariantProps: PlasmicHomepage__VariantProps,
     internalArgProps: PlasmicHomepage__ArgProps,
 
+    // Key-value metadata
+    metadata: { hreflang: "uk-UA" },
+
     // Page metadata
     pageMetadata: {
       title: "Home",
       description: "",
       ogImageSrc: "",
-      canonical: ""
+      canonical: "https://red.test"
     }
   }
 );
